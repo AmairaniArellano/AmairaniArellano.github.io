@@ -1,0 +1,86 @@
+body {
+    background-color: #73CAA3;
+}
+.edvisto-icon {
+    position: absolute;
+    width: 257px;
+    height: 257px;
+    left: 589px;
+    top: 155px;
+}
+#bienvenido {
+    position: absolute;
+    width: 513px;
+    height: 31px;
+    left: 463px;
+    top: 454px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #6B839A;
+}
+#emailInput {
+    position: absolute;
+    width: 349px;
+    height: 49px;
+    left: 544px;
+    top: 515px;
+    background: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.profesorOption {
+    position: absolute;
+    width: 137px;
+    height: 31px;
+    left: 593px;
+    top: 597px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #6B839A; 
+}
+.estudianteOption {
+    position: absolute;
+    width: 137px;
+    height: 31px;
+    left: 734px;
+    top: 597px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #6B839A;
+}
+#ingresar {
+    position: absolute;
+    width: 163px;
+    height: 58px;
+    left: 637px;
+    top: 662px;
+    background: #6B839A;
+    border: 3px solid #6B839A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}

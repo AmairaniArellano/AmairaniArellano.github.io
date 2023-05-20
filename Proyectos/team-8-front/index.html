@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ingreso</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./CSS/Ingreso.css">
+    </head>
+    <body>
+        <input  type="image" src="./img/icon/edvisto-logo.png" class="edvisto-icon" alt="edvisto-icono">
+    <form  action="https://formsubmit.co/developersteam8noc@gmail.com" method="post" id="datos" name="formulario">
+        <label for="bienvenido" id="bienvenido"><strong>¡BIENVENIDO!</strong></label>
+        <input type="email" id="emailInput" placeholder="E-mail" name="Email" required>
+        <div class="profesorOption">
+        <input type="radio" id="profesor" name="rol" value="profesor">
+        <label for="profesor"><strong>Profesor</strong></label>
+        </div>
+        <div class="estudianteOption">
+        <input type="radio" id="estudiante" name="rol" value="estudiante">
+        <label for="estudiante"><strong>Estudiante</strong></label>
+        </div>
+        <input type="submit" id="ingresar" value="INGRESAR" name="enviar" onclick="guardar()">
+    </form>
+    <script src="./JS/app.js"></script>
+    </body>
+
+</html>

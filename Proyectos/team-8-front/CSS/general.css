@@ -1,0 +1,93 @@
+.menu-box-izq {
+    position: absolute;
+    width: 189px;
+    height: 1570px;
+    left: 3px;
+    top: 1px;
+    background: #2E4154;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: -2;
+}
+
+.edvisto-icon {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 30px;
+    top: 25px;
+}
+#pestanaEvaluacion {
+    position: absolute;
+    width: 257px;
+    height: 142px;
+    left: 0px;
+    top: 199px;
+    background: #73CAA3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 30px 30px 0px;
+    z-index: -1;
+}
+#evaluacion-text {
+    position: absolute;
+    width: 102px;
+    height: 31px;
+    left: 132px;
+    top: 100px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.evaluacion-icon {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    left: 149px;
+    top: 20px;    
+}
+
+#informe-text {
+    position: absolute;
+    width: 102px;
+    height: 31px;
+    left: 47px;
+    top: 465px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;    
+}
+
+.informe-icon {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    left: 64px;
+    top: 385px;  
+}
+#sup-izq {
+    position: absolute;
+    width: 321px;
+    height: 31px;
+    left: 297px;
+    top: 41px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7A7399;    
+}
+.mayor-que-logo {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 254px;
+    top: 73px;
+}

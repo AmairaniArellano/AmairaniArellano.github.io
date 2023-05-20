@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <meta charset="UTF-8">
+        <title>Evaluación</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../CSS/general.css">
+        <link rel="stylesheet" href="../CSS/perfil-profesor.css">
+    </head>
+    <body>
+        <div class="menu-box-izq">
+                <input type="image" src="../img/icon/edvisto-logo.png" class="edvisto-icon">
+                <div id="pestanaInformacion">
+                <input  type="image" src="../img/icon/evaluacion.png" class="evaluacion-icon" alt="evaluacion icono">
+                <label for="evaluacion" id="evaluacion-text"><strong>Evaluación</strong></label>
+                </div>
+                <input type="image" src="../img/icon/informe.png" class="informe-icon" alt="informe icono">
+                <label for="informe" id="informe-text"><strong>Informe</strong></label>
+            
+        </div>
+        <input type="image" src="../img/icon/mayor que verde.png" class="mayor-que-logo" alt="mayor que">
+        <h6 id="sup-izq"><strong>EVALUACIÓN</strong></h6> 
+
+        <form action="https://formsubmit.co/developersteam8noc@gmail.com" method="post" id="formulario">
+                <label for="email" id="emailText"> <strong>SELECCIONA EL E-MAIL DEL ESTUDIANTE QUE DESEAS EVALUAR:</strong></label>
+                <select name="emailSele" id="emailSelect">
+                        <option value="example0"></option>
+                        <option value="example1">estudiante1@example.com</option>
+                        <option value="example2">estudiante2@example.com</option>
+                        <option value="example3">estudiante3@example.com</option>
+                        <option value="example4">estudiante4@example.com</option>
+                        <option value="example5">estudiante5@example.com</option>
+                        <option value="example6">estudiante6@example.com</option>
+                        <option value="example7">estudiante7@example.com</option>
+                </select>
+                <span id="visText"><strong>VISUALIZA SU VIDEOPROYECTO  A CONTINUACIÓN:</strong></span>
+                <img src="../img/icon/pelicula.png" alt="video previa">
+                <span id="cargaText"><strong>Cargando 50%</strong></span>
+                <p id="itemProp"><strong>EVALÚA CON LA CARITA QUE CREAS MÁS ADECUADA PARA CADA ITEM PROPUESTO:</strong></p>
+        
+                <div class="criterioUnoBox">
+                    <p id="criterioUnoText">/ HABILIDAD: CREATIVIDAD / <br>
+                        ¿Está motivado para salir de la zona de confort en el proceso?</p>
+                </div>
+                <div id="evaluacionUno">
+                    <span id="criUnoIn">Muy insatisfecho</span>
+                    <span id="criUnoSa">Muy satisfecho</span>
+                    <input type="radio" id="one" name="criterioUno" value="Muy insatisfecho" required>
+                    <label for="one" id="one"></label>
+                    <input type="radio" id="two" name="criterioUno" value="Insatisfecho" required>
+                    <label for="two" id="two"></label>
+                    <input type="radio" id="three" name="criterioUno" value="Neutral" required>
+                    <label for="three" id="three"></label>
+                    <input type="radio" id="four" name="criterioUno" value="Satisfecho" required>
+                    <label for="four" id="four"></label>
+                    <input type="radio" id="five" name="criterioUno" value="Muy Satisfecho" required>
+                    <label for="five" id="five"></label>
+                </div>
+    
+                <div class="criterioDosBox">
+                    <p id="criterioDosText">/ HABILIDAD: TRABAJO COLABORATIVO / <br>
+                        ¿Entiende el valor de trabajar y utilizar los recursos de manera colaborativa?</p>
+                </div>
+                <div id="evaluacionDos">
+                    <span id="criDosIn">Muy insatisfecho</span>
+                    <span id="criDosSa">Muy satisfecho</span>
+                    <input type="radio" id="oneTwo" name="criterioDos" value="Muy insatisfecho" required>
+                    <label for="oneTwo" id="oneTwo"></label>
+                    <input type="radio" id="twoTwo" name="criterioDos" value="Insatisfecho" required>
+                    <label for="twoTwo" id="twoTwo"></label>
+                    <input type="radio" id="threeTwo" name="criterioDos" value="Neutral" required>
+                    <label for="threeTwo" id="threeTwo"></label>
+                    <input type="radio" id="fourTwo" name="criterioDos" value="Satisfecho" required>
+                    <label for="fourTwo" id="fourTwo"></label>
+                    <input type="radio" id="fiveTwo" name="criterioDos" value="Muy Satisfecho" required>
+                    <label for="fiveTwo" id="fiveTwo"></label>
+                </div>
+    
+                <div class="criterioTresBox">
+                    <p id="criterioTresText">/ HABILIDAD: COMUNICACIÓN / <br>
+                        ¿Tiene un mensaje claro para trasmitir a través de su video proyecto?</p>
+                </div>
+                <div id="evaluacionTres">
+                    <span id="criTresIn">Muy insatisfecho</span>
+                    <span id="criTresSa">Muy satisfecho</span>
+                    <input type="radio" id="oneThree" name="criterioTres" value="Muy insatisfecho" required>
+                    <label for="oneThree" id="oneThree"></label>
+                    <input type="radio" id="twoThree" name="criterioTres" value="Insatisfecho" required>
+                    <label for="twoThree" id="twoThree"></label>
+                    <input type="radio" id="threeThree" name="criterioTres" value="Neutral" required>
+                    <label for="threeThree" id="threeThree"></label>
+                    <input type="radio" id="fourThree" name="criterioTres" value="Satisfecho" required>
+                    <label for="fourThree" id="fourThree"></label>
+                    <input type="radio" id="fiveThree" name="criterioTres" value="Muy Satisfecho" required>
+                    <label for="fiveThree" id="fiveThree"></label>
+                </div>
+    
+                <div class="criterioCuatroBox">
+                    <p id="criterioCuatroText">/ HABILIDAD: PENSAMIENTO CRÍTICO / <br>
+                        ¿El resultado del videoproyecto muestra el desarrollo de una investigación profunda?</p>
+                </div>
+                <div id="evaluacionCuatro">
+                    <span id="criCuatroIn">Muy insatisfecho</span>
+                    <span id="criCuatroSa">Muy satisfecho</span>
+                    <input type="radio" id="oneFour" name="criterioCuatro" value="Muy insatisfecho" required>
+                    <label for="oneFour" id="oneFour"></label>
+                    <input type="radio" id="twoFour" name="criterioCuatro" value="Insatisfecho" required>
+                    <label for="twoFour" id="twoFour"></label>
+                    <input type="radio" id="threeFour" name="criterioCuatro" value="Neutral" required>
+                    <label for="threeFour" id="threeFour"></label>
+                    <input type="radio" id="fourFour" name="criterioCuatro" value="Satisfecho" required>
+                    <label for="fourFour" id="fourFour"></label>
+                    <input type="radio" id="fiveFour" name="criterioCuatro" value="Muy Satisfecho" required>
+                    <label for="fiveFour" id="fiveFour"></label>
+                </div>
+
+                <label for="conclusiones" id="conclusionesText"><strong>REDACTA TUS CONCLUSIONES SOBRE EL VIDEOPROYECTO, QUE LUEGO SE VERÁN REFLEJADAS EN EL INFORME:</strong></label>
+                <textarea name="conclusiones" id="conclusionesFinales" cols="30" rows="10"></textarea> <br>
+    
+                <input type="image" src="../img/icon/Logo-guardar-información.png" id="iconSubmit">
+                <input type="submit" id="btnSubmit" value="GUARDAR
+ INFORMACIÓN">
+            </form>
+    </body>
+</html>

@@ -1,0 +1,225 @@
+#pestanaInforme {
+    position: absolute;
+    width: 257px;
+    height: 142px;
+    left: 0px;
+    top: 368px;
+    background: #73CAA3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 30px 30px 0px;
+    z-index: -1;
+}
+#evaluacion-text {
+    position: absolute;
+    width: 102px;
+    height: 31px;
+    left: 48px;
+    top: 300px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.evaluacion-icon {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    left: 65px;
+    top: 220px;
+}
+.informe-icon {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    left: 149px;
+    top: 18px;
+}
+
+#informe-text {
+    position: absolute;
+    width: 102px;
+    height: 31px;
+    left: 132px;
+    top: 100px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.flecha {
+    position: absolute;
+    width: 139px;
+    height: 139px;
+    left: 731px;
+    top: 194px;    
+}
+#congrats {
+    position: absolute;
+    width: 344px;
+    height: 121px;
+    left: 421px;
+    top: 127px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-size: 60px;
+    line-height: 72px;
+    color: #6B839A;
+}
+#mensaje {
+    position: absolute;
+    width: 449px;
+    height: 154px;
+    left: 421px;
+    top: 558px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: #6B839A; 
+}
+#creatividadIcon {
+    position: absolute;
+    width: 86.8px;
+    height: 86.8px;
+    left: 978px;
+    top: 190px;
+}
+#creatividadText {
+    position: absolute;
+    width: 109.2px;
+    height: 33.6px;
+    left: 1081px;
+    top: 244px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #6B839A;
+}
+#creatividadporc {
+    position: absolute;
+    width: 138px;
+    height: 106px;
+    left: 1065px;
+    top: 187px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #73CAA3;
+}
+#trabajoIcon {
+    position: absolute;
+    width: 90.98px;
+    height: 89.6px;
+    left: 976px;
+    top: 331px;
+}
+#trabajoText {
+    position: absolute;
+    width: 130px;
+    height: 34px;
+    left: 1085px;
+    top: 376px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #6B839A;    
+}
+#trabajoporc {
+    position: absolute;
+    width: 138px;
+    height: 106px;
+    left: 1065px;
+    top: 321px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #73CAA3;
+}
+#comunicacionIcon {
+    position: absolute;
+    width: 90.98px;
+    height: 89.6px;
+    left: 976px;
+    top: 476px;    
+}
+#comunicacionText {
+    position: absolute;
+    width: 149px;
+    height: 34px;
+    left: 1070px;
+    top: 532px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #6B839A;   
+}
+#comunicacionporc {
+    position: absolute;
+    width: 138px;
+    height: 57px;
+    left: 1065px;
+    top: 476px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #73CAA3;
+}
+#pensamientoIcon {
+    position: absolute;
+    width: 86.8px;
+    height: 86.8px;
+    left: 978px;
+    top: 621px;  
+}
+#pensamientoText {
+    position: absolute;
+    width: 136px;
+    height: 34px;
+    left: 1085px;
+    top: 664px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #6B839A;
+}
+#pensamientoporc {
+    position: absolute;
+    width: 138px;
+    height: 55px;
+    left: 1065px;
+    top: 609px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #73CAA3;    
+}

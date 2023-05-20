@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <meta charset="UTF-8">
+        <title>Autoevaluación</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../CSS/general.css">
+        <link rel="stylesheet" href="../CSS/perfil-alumno.css">
+    </head>
+    <body>
+        <div class="menu-box-izq">
+                <input type="image" src="../img/icon/edvisto-logo.png" class="edvisto-icon">
+                
+                <div id="pestanaEvaluacion">
+                <input  type="image" src="../img/icon/evaluacion.png" class="evaluacion-icon" alt="evaluacion icono">
+                <label for="evaluacion" id="evaluacion-text"><strong>Evaluación</strong></label>
+                </div>
+
+                <input type="image" src="../img/icon/informe.png" class="informe-icon" alt="informe icono">
+                <label for="informe" id="informe-text"><strong>Informe</strong></label>
+            
+        </div>
+        <input type="image" src="../img/icon/mayor que verde.png" class="mayor-que-logo" alt="mayor que">
+        <h6 id="sup-izq"><strong>EVALUACIÓN</strong></h6> 
+
+        <form  action="https://formsubmit.co/developersteam8noc@gmail.com" method="post" id="formulario">
+            <label for="link-text" id="link-text"> <strong>CARGAR LINK DE YOUTUBE</strong></label>
+            <input type="url" id="linkInput" name="link" required>
+            <a class="deleteButton" href="#" onclick="deleteBoton()"></a>
+    
+            <div class="criterioUnoBox">
+                <p id="criterioUnoText">Estuve dispuesto <br> a probar cosas nuevas para que mi video fuera el mejor posible.</p>
+            </div>
+            <div id="evaluacionUno">
+                <span id="criUnoIn">Muy insatisfecho</span>
+                <span id="criUnoSa">Muy satisfecho</span>
+                <input type="radio" id="one" name="CriterioUno" value="Muy insatisfecho" required>
+                <label for="one" id="oneL"></label>
+                <input type="radio" id="two" name="CriterioUno" value="Insatisfecho" required>
+                <label for="two" id="twoL"></label>
+                <input type="radio" id="three" name="CriterioUno" value="Neutral" required>
+                <label for="three" id="threeL"></label>
+                <input type="radio" id="four" name="CriterioUno" value="Satisfecho" required>
+                <label for="four" id="fourL"></label>
+                <input type="radio" id="five" name="CriterioUno" value="Muy Satisfecho" required>
+                <label for="five" id="fiveL"></label>
+            </div>
+
+            <div class="criterioDosBox">
+                <p id="criterioDosText">Las herramientas que teníamos a nuestra disposición 
+                <br> eran fáciles de usar y nos permitieron ser muy creativos juntos.</p>
+            </div>
+            <div id="evaluacionDos">
+                <span id="criDosIn">Muy insatisfecho</span>
+                <span id="criDosSa">Muy satisfecho</span>
+                <input type="radio" id="oneTwo" name="CriterioDos" value="Muy insatisfecho" required>
+                <label for="oneTwo" id="oneTwoL"></label>
+                <input type="radio" id="twoTwo" name="CriterioDos" value="Insatisfecho" required>
+                <label for="twoTwo" id="twoTwoL"></label>
+                <input type="radio" id="threeTwo" name="CriterioDos" value="Neutral" required>
+                <label for="threeTwo" id="threeTwoL"></label>
+                <input type="radio" id="fourTwo" name="CriterioDos" value="Satisfecho" required>
+                <label for="fourTwo" id="fourTwoL"></label>
+                <input type="radio" id="fiveTwo" name="CriterioDos" value="Muy Satisfecho" required>
+                <label for="fiveTwo" id="fiveTwoL"></label>
+            </div>
+
+            <div class="criterioTresBox">
+                <p id="criterioTresText">Logré comunicar de manera 
+                    <br> clara y precisa lo que quería decir.</p>
+            </div>
+            <div id="evaluacionTres">
+                <span id="criTresIn">Muy insatisfecho</span>
+                <span id="criTresSa">Muy satisfecho</span>
+                <input type="radio" id="oneThree" name="CriterioTres" value="Muy insatisfecho" required>
+                <label for="oneThree" id="oneThreeL"></label>
+                <input type="radio" id="twoThree" name="CriterioTres" value="Insatisfecho" required>
+                <label for="twoThree" id="twoThreeL"></label>
+                <input type="radio" id="threeThree" name="CriterioTres" value="Neutral" required>
+                <label for="threeThree" id="threeThreeL"></label>
+                <input type="radio" id="fourThree" name="CriterioTres" value="Satisfecho" required>
+                <label for="fourThree" id="fourThreeL"></label>
+                <input type="radio" id="fiveThree" name="CriterioTres" value="Muy Satisfecho" required>
+                <label for="fiveThree" id="fiveThreeL"></label>
+            </div>
+
+            <div class="criterioCuatroBox">
+                <p id="criterioCuatroText">Después de investigar mucho, nuestro videoproyecto
+                <br> quedó exactamente como lo habíamos imaginado.</p>
+            </div>
+            <div id="evaluacionCuatro">
+                <span id="criCuatroIn">Muy insatisfecho</span>
+                <span id="criCuatroSa">Muy satisfecho</span>
+                <input type="radio" id="oneFour" name="CriterioCuatro" value="Muy insatisfecho" required>
+                <label for="oneFour" id="oneFourL"></label>
+                <input type="radio" id="twoFour" name="CriterioCuatro" value="Insatisfecho" required>
+                <label for="twoFour" id="twoFourL"></label>
+                <input type="radio" id="threeFour" name="CriterioCuatro" value="Neutral" required>
+                <label for="threeFour" id="threeFourL"></label>
+                <input type="radio" id="fourFour" name="CriterioCuatro" value="Satisfecho" required>
+                <label for="fourFour" id="fourFourL"></label>
+                <input type="radio" id="fiveFour" name="CriterioCuatro" value="Muy Satisfecho" required>
+                <label for="fiveFour" id="fiveFourL"></label>
+            </div>
+
+            <input type="image" src="../img/icon/enviar 1.png" id="iconSubmit">
+            <input type="submit" id="btnSubmit" value="ENVIAR
+ AUTOEVALUACIÓN"  onclick="recogerDatos()">
+        </form>
+        <script src="../JS/perfil-alumno.js"></script>
+    </body>
+</html>
